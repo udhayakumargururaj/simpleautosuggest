@@ -1,0 +1,24 @@
+input[id="searchBoxText"] {
+  	font-size: 20px;
+    height: 30px;
+    width:400px;
+}
+input[name="textBoxSubmit"]{
+    height: 36px;
+}
+.results{
+	display: flex;
+    border: 1px solid grey;
+    flex-flow: column;
+    position: absolute;
+    width: 30%;
+}
+.results div{
+	border-bottom: 1px solid lightgrey;	
+}
+.results div:hover{
+	background-color: lightgrey;
+}
+.noResults{
+	display: none;
+}
